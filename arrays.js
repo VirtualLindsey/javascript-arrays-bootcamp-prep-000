@@ -16,15 +16,6 @@ function destructivelyAddElementToBeginningOfArray (array, element){
 }
 
 
-function destructivelyAddElementToEndOfArray (array, element){
-  /*
-  let newArr = array.push(element);
-  return newArr;
-  */
-  array.push(element);
-  return array;
-}
-
 function addElementToEndOfArray(array, element){
   /*
   array.unshift(element);
@@ -34,6 +25,16 @@ function addElementToEndOfArray(array, element){
   return newArr;
   
 }
+
+function destructivelyAddElementToEndOfArray (array, element){
+  /*
+  let newArr = array.push(element);
+  return newArr;
+  */
+  array.push(element);
+  return array;
+}
+
 
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
