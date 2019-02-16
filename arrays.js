@@ -9,6 +9,7 @@ function destructivelyAddElementToBeginningOfArray (array, element){
   let newArr = array.unshift(element);
   return newArr;
 }
+/*
 
 function destructivelyAddElementToEndOfArray (array, element){
   let newArr = array.push(element);
@@ -38,4 +39,4 @@ function removeElementFromEndOfArray(array){
 function destructivelyRemoveElementFromEndOfArray(array){
   let newArr = array.pop
   return newArr;
-}
+}*/
