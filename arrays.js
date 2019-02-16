@@ -51,9 +51,6 @@ function removeElementFromBeginningOfArray(array){
   return newArr;
 }
 
-//
-
-
 function removeElementFromEndOfArray(array){
   let newArr = array.pop()
   return newArr;
