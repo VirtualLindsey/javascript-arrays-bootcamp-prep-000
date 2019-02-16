@@ -35,12 +35,12 @@ function addElementToEndOfArray(array, element){
   
 }
 
-/*
+
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  let newArr = array.shift;
-  return newArr;
+  return array.shift();
 }
 
+/*
 function removeElementFromBeginningOfArray(array){
   let newArr = array.slice(1);
   return newArr;
