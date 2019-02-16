@@ -49,7 +49,7 @@ function removeElementFromBeginningOfArray(array){
 
 
 function removeElementFromEndOfArray(array){
-  let newArr = array.slice(-1)
+  let newArr = array.pop()
   return newArr;
 }
 
