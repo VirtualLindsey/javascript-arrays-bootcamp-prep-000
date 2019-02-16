@@ -40,11 +40,13 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
   return array.shift();
 }
 
-/*
+
 function removeElementFromBeginningOfArray(array){
   let newArr = array.slice(1);
   return newArr;
+  
 }
+
 
 function removeElementFromEndOfArray(array){
   let newArr = array.pop()
@@ -54,4 +56,4 @@ function removeElementFromEndOfArray(array){
 function destructivelyRemoveElementFromEndOfArray(array){
   let newArr = array.pop
   return newArr;
-}*/
+}
