@@ -30,6 +30,8 @@ function addElementToEndOfArray(array, element){
   array.unshift(element);
   return array;
   */
+  let newArr = [...array, element] ;
+  return newArr;
   
 }
 
